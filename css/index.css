@@ -1,0 +1,160 @@
+html {
+  position: relative;
+  min-height: 100%;
+  width:100%;
+  height:100%;
+}
+
+body {
+	-webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	background-image: url(../img/background.png);
+	background-color:#1892B7;
+	background-attachment: fixed;
+	margin-bottom: 70px;
+	position:absolute;
+	font-family: "Roboto Light", "Roboto Thin", "Roboto Medium", "Roboto Regular";
+	font-size: 14px;
+	color: white;
+	height: 100%;
+	padding: 0px;
+	width: 100%;
+}
+
+ /*Portrait layout (default) */
+.app {
+    background:url(../img/test.png) no-repeat center top; /* 215px x 95px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:120px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+.tab{
+	background: #1B4B77;
+	text-align: center;
+	margin: auto 0;
+	padding: 0;
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+	
+}
+.header {
+  position: absolute;
+  colour:white;
+  text-transform: uppercase;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+}
+
+p {
+	align-content:center;
+	color: white;
+	font-weight:thin;
+}
+
+.heading {
+	color: white;	
+	font-weight:thin;
+	font-size:15px;
+}
+
+.line-separator{
+	height:5px;
+	background:#10A8B0;
+	border-bottom:1px solid #313030;
+	margin-bottom:18px;
+}
+#line-separator{
+	height:2px;
+	background:#10A8B0;
+	border-bottom:1px solid #313030;
+	margin-bottom:18px;
+	margin-top:115px;
+}
+#break {
+	height:5px;
+	background:#10A8B0;
+	border-bottom:1px solid #313030;
+	margin-bottom:20px;
+	
+}
+#login-separator {
+	height:3px;
+	background:#10A8B0;
+	border-bottom:1px solid #313030;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+.btn-group-vertical > a{
+    margin-bottom:30px;
+	-moz-box-shadow:    3px 3px 3px 2px #000;
+	-webkit-box-shadow: 3px 3px 3px 2px #000;
+	box-shadow:         3px 3px 3px 2px #000;
+}
+.btn-group-justified {
+	padding-right:-5px;
+	padding-left:5px;
+	}
+	
+.wid{
+	text-align:center;
+	padding:0;
+	margin: 0 auto;
+	}
+	
+.btn-primary{
+	font-size:20px;
+	width:40px;
+	}
+.course {
+	text-align:center;
+	margin-top:80px;
+    padding:0;     
+    
+}
+
+
+	
+
+/*Colour Boxes in course tab*/
+.button_sliding_bg {
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: inset 0 0 0 0 #21D0C2;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+.button_sliding_bg:active {
+    box-shadow: inset 0 0 100px 0 #21D0C2;
+}
+/* END Colour Boxes in course tab*/
+.cam{
+	margin:0px;
+    padding:0;
+	width: 300px;
+	height:300px;
+	}
+	
+#learning {
+		width:270px;
+		height:42px;
+		font-size:16px;
+	}
+
+
+/*Slide transition*/
+
+
+ /*End of slide transition*/
